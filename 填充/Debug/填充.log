@@ -1,0 +1,42 @@
+﻿生成启动时间为 2017/2/23 16:15:53。
+     1>项目“F:\code_workplace\test\填充\填充.vcxproj”在节点 8 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "填充.cpp"
+         填充.cpp
+     1>d:\program files (x86)\microsoft visual studio 12.0\vc\include\xutility(2633): warning C4244: “参数”: 从“const double”转换到“const float”，可能丢失数据
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\xutility(2673): 参见对正在编译的函数 模板 实例化“_OutIt std::_Fill_n<_OutIt,_Diff,_Ty>(_OutIt,_Diff,const _Ty &)”的引用
+                 with
+                 [
+                     _OutIt=std::ostream_iterator<float,char,std::char_traits<char>>
+         ,            _Diff=int
+         ,            _Ty=double
+                 ]
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\xutility(2694): 参见对正在编译的函数 模板 实例化“_OutIt std::_Fill_n1<_OutIt,_Diff,_Ty>(_OutIt,_Diff,const _Ty &,std::_Mutable_iterator_tag)”的引用
+                 with
+                 [
+                     _OutIt=std::ostream_iterator<float,char,std::char_traits<char>>
+         ,            _Diff=int
+         ,            _Ty=double
+                 ]
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\xutility(2715): 参见对正在编译的函数 模板 实例化“_OutIt std::_Fill_n<_OutIt,_Diff,_Ty>(_OutIt,_Diff,const _Ty &,std::true_type)”的引用
+                 with
+                 [
+                     _OutIt=std::ostream_iterator<float,char,std::char_traits<char>>
+         ,            _Diff=int
+         ,            _Ty=double
+                 ]
+                 f:\code_workplace\test\填充\填充.cpp(28): 参见对正在编译的函数 模板 实例化“_OutIt std::fill_n<std::ostream_iterator<float,char,std::char_traits<char>>,int,double>(_OutIt,_Diff,const _Ty &)”的引用
+                 with
+                 [
+                     _OutIt=std::ostream_iterator<float,char,std::char_traits<char>>
+         ,            _Diff=int
+         ,            _Ty=double
+                 ]
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\code_workplace\test\Debug\填充.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\code_workplace\test\Debug\填充.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\code_workplace\test\Debug\填充.lib" /MACHINE:X86 "Debug\填充.obj"
+         填充.vcxproj -> F:\code_workplace\test\Debug\填充.exe
+     1>已完成生成项目“F:\code_workplace\test\填充\填充.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.56

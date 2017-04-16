@@ -1,0 +1,18 @@
+﻿生成启动时间为 2017/2/23 16:15:53。
+     1>项目“F:\code_workplace\test\copy\copy.vcxproj”在节点 4 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt copy.cpp
+         copy.cpp
+     1>d:\program files (x86)\microsoft visual studio 12.0\vc\include\xutility(2132): error C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\xutility(2113) : 参见“std::_Copy_impl”的声明
+                 f:\code_workplace\test\copy\copy.cpp(39): 参见对正在编译的函数 模板 实例化“_OutIt std::copy<std::reverse_iterator<std::_List_iterator<std::_List_val<std::_List_simple_types<int>>>>,int>(_InIt,_InIt,_OutIt)”的引用
+                 with
+                 [
+                     _OutIt=int
+         ,            _InIt=std::reverse_iterator<std::_List_iterator<std::_List_val<std::_List_simple_types<int>>>>
+                 ]
+     1>已完成生成项目“F:\code_workplace\test\copy\copy.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.75

@@ -1,0 +1,36 @@
+﻿生成启动时间为 2017/2/23 16:15:53。
+     1>项目“F:\code_workplace\test\删除\删除.vcxproj”在节点 9 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\删除.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\删除.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "删除.cpp"
+         删除.cpp
+     1>d:\program files (x86)\microsoft visual studio 12.0\vc\include\algorithm(1846): error C3892: “std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<int>>>::operator *”: 不能给常量赋值
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\algorithm(1875): 参见对正在编译的函数 模板 实例化“_OutIt std::_Unique_copy<_InIt,_OutIt,_Pr>(_FwdIt,_FwdIt,_OutIt,_Pr,std::forward_iterator_tag)”的引用
+                 with
+                 [
+                     _OutIt=std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<int>>>
+         ,            _InIt=std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<int>>>
+         ,            _Pr=std::greater<int>
+         ,            _FwdIt=std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<int>>>
+                 ]
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\algorithm(1899): 参见对正在编译的函数 模板 实例化“_OutIt std::_Unique_copy1<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<int>>>,_OutIt,_Pr>(_InIt,_InIt,_OutIt,_Pr,std::true_type)”的引用
+                 with
+                 [
+                     _OutIt=std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<int>>>
+         ,            _Pr=std::greater<int>
+         ,            _InIt=std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<int>>>
+                 ]
+                 f:\code_workplace\test\删除\删除.cpp(71): 参见对正在编译的函数 模板 实例化“_OutIt std::unique_copy<std::_List_iterator<std::_List_val<std::_List_simple_types<int>>>,std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<int>>>,std::greater<int>>(_InIt,_InIt,_OutIt,_Pr)”的引用
+                 with
+                 [
+                     _OutIt=std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<int>>>
+         ,            _InIt=std::_List_iterator<std::_List_val<std::_List_simple_types<int>>>
+         ,            _Pr=std::greater<int>
+                 ]
+     1>d:\program files (x86)\microsoft visual studio 12.0\vc\include\algorithm(1850): error C3892: “std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<int>>>::operator *”: 不能给常量赋值
+     1>已完成生成项目“F:\code_workplace\test\删除\删除.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.19
